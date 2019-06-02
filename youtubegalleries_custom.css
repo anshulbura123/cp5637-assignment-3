@@ -1,0 +1,70 @@
+/*.items .ytgal-name, */
+.ytgal_grid .items .ytgal-name a {
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/*CSS for Bootstrap based theme*/
+.ytgallery_area .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.ytgallery_area .container .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.ytgallery_area .col-xs-1, .ytgallery_area .col-sm-1, .ytgallery_area .col-md-1, .ytgallery_area .col-lg-1, .ytgallery_area .col-xs-2, .ytgallery_area .col-sm-2, .ytgallery_area .col-md-2, .ytgallery_area .col-lg-2, .ytgallery_area .col-xs-3, .ytgallery_area .col-sm-3, .ytgallery_area .col-md-3, .ytgallery_area .col-lg-3, .ytgallery_area .col-xs-4, .ytgallery_area .col-sm-4, .ytgallery_area .col-md-4, .ytgallery_area .col-lg-4, .ytgallery_area .col-xs-5, .ytgallery_area .col-sm-5, .ytgallery_area .col-md-5, .ytgallery_area .col-lg-5, .ytgallery_area .col-xs-6, .ytgallery_area .col-sm-6, .ytgallery_area .col-md-6, .ytgallery_area .col-lg-6, .ytgallery_area .col-xs-7, .ytgallery_area .col-sm-7, .ytgallery_area .col-md-7, .ytgallery_area .col-lg-7, .ytgallery_area .col-xs-8, .ytgallery_area .col-sm-8, .ytgallery_area .col-md-8, .ytgallery_area .col-lg-8, .ytgallery_area .col-xs-9, .ytgallery_area .col-sm-9, .ytgallery_area .col-md-9, .ytgallery_area .col-lg-9, .ytgallery_area .col-xs-10, .ytgallery_area .col-sm-10, .ytgallery_area .col-md-10, .ytgallery_area .col-lg-10, .ytgallery_area .col-xs-11, .ytgallery_area .col-sm-11, .ytgallery_area .col-md-11, .ytgallery_area .col-lg-11, .ytgallery_area .col-xs-12, .ytgallery_area .col-sm-12, .ytgallery_area .col-md-12, .ytgallery_area .col-lg-12{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*CSS for Bootstrap based theme*/
+
+
+/*Responsive*/
+@media only screen and (min-width: 1024px) and (max-width: 1220px) {
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+  /*for different height grid*/
+  .ytgal_grid_details .youtubegalleries,
+  .ytgal_left_info .youtubegalleries {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ytgal_grid_details .grid
+  .ytgal_left_info .grid {
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .ytgal_grid_details .grid:nth-child(even):after,
+  .ytgal_left_info .grid:nth-child(even):after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  /*end for different height grid*/
+  .ytgal_right_info .item-details .ytgal-name,
+  .ytgal_left_info .item-details .ytgal-name { 
+    font-size: 15px; 
+  }
+  .ytgal_left_info .item-details { margin-top: 30px; }
+  .ytgal_right_info .single-yt-video, .ytgal_left_info .single-yt-video {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+ .ytgal_right_info .single-yt-video, 
+ .ytgal_left_info .single-yt-video {
+  display: initial;
+ }
+ .ytgal_left_info .item-details { margin-top: 30px; }
+
+}

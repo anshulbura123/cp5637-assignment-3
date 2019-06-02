@@ -1,0 +1,47 @@
+.ytgallery_wrap .metabox-holder {
+    background: #fff;
+    margin-top: 3px;
+}
+.ytgallery_wrap h2 {
+    margin-left: 10px;
+}
+.ytgallery_wrap input[type=text], .ytgallery_wrap select, .ytgallery_wrap input[type=number] {
+    min-width: 150px;
+    max-width: 150px;
+    text-align: center;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.ytgallery_wrap .description {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 13px;
+}
+#youtubegalleries_settings tr:nth-child(1) input[type=text],
+#youtubegalleries_settings tr:nth-child(2) input[type=text],
+#youtubegalleries_settings tr:nth-child(3) input[type=text] {
+    min-width: 325px;
+    max-width: 325px;
+}
+#youtubegalleries_settings tr:nth-child(10) .description,
+#youtubegalleries_style_settings tr:nth-child(5) .description {
+  margin-left: 0;
+  display: block;
+}
+div#youtubegalleries_style_settings { position: relative; }
+div#youtubegalleries_style_settings tr:first-child {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 100%;
+  height: 100%;
+  background: #F8F8F8;
+  opacity: 0.6;
+  z-index: 99;
+  padding: 0 !important;
+}
+div#youtubegalleries_style_settings tr:first-child input {
+  display: none;
+}
+div#youtubegalleries_style_settings .wp-picker-container .wp-color-result.button { float: left; }
+div#youtubegalleries_style_settings tr:nth-child(6) p.description { display: block; margin: 0;}
